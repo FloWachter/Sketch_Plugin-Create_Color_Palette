@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Make Color Palette",
+      "identifier": "makecolorpalette.main-identifier",
+      "script": "__makecolorpalette.js",
+      "shortcut": "command shift y",
+      "icon": "icon-small.svg"
+    }
+  ],
+  "menu": {
+    "title": "🌈 MakeColorPalette",
+    "items": [
+      "makecolorpalette.main-identifier"
+    ]
+  },
+  "version": "0.1.0",
+  "description": "",
+  "name": "MakeColorPalette",
+  "identifier": "MakeColorPalette",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Florian",
+  "authorEmail": "florianwachter@gmx.net"
+}

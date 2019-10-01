@@ -1,7 +1,7 @@
 # Make-Color-Palette
 Make Color Palette — Sketch 3 Plugin
 
-![alt text](http://use.gif)
+![How to use](use.gif)
 
 Make-Color-Palette is a Sketch 3 Plugin to make fast color Palettes.
 For this you just have to select objects with a background color and press shift + cmd + y and 

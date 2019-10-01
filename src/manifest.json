@@ -6,11 +6,12 @@
       "name": "Make Color Palette",
       "identifier": "makecolorpalette.main-identifier",
       "script": "./makecolorpalette.js",
-      "shortcut" : "command shift y"
+      "shortcut" : "command shift y",
+      "icon": "icon-small.svg"
     }
   ],
   "menu": {
-    "title": "MakeColorPalette",
+    "title": "🌈 MakeColorPalette",
     "items": [
       "makecolorpalette.main-identifier"
 

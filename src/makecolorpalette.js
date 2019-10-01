@@ -25,7 +25,7 @@ export default function() {
     // Input Form for Picking the overlay color
     var overlayColor = "";
     sketch.UI.getInputFromUser(
-      "Choose a overlay color",
+      "Choose a overlay color to match the colors to eachother! \n (format: #xxxxxx)",
       {
         initialValue: '#FFEA26',
       },
@@ -70,21 +70,24 @@ export default function() {
         let mySquare = new ShapePath({
           parent: myArtboard,
           frame: { x: 90 * i, y: 0, width: 90, height: 90 },
-          style: { fills: [colorUse],  borders: []}
+          style: { fills: [colorUse],  borders: []},
+          name: "Selected_base_color"
         }) 
       }
       // create a white layer on top of the colors
       let rectWhite_top = new ShapePath({
         parent: myArtboard,
         frame: { x: 0, y: 0, width: 90 * colorData.length, height: 30 },
-        style: { fills: ['#ffffff'], opacity: 0.2, borders: []}
+        style: { fills: ['#ffffff'], opacity: 0.2, borders: []},
+        name: "White_opayity_rect_top"
 
       }) 
       // create a black layer on top of the colors
       let rectblack_bottom = new ShapePath({
         parent: myArtboard,
         frame: { x: 0, y: 60, width: 90 * colorData.length, height: 30 },
-        style: { fills: ['#000000'], opacity: 0.2, borders: []}
+        style: { fills: ['#000000'], opacity: 0.2, borders: []},
+        name: "Black_opayity_rect_bottom"
 
       })
 
@@ -94,7 +97,8 @@ export default function() {
           let rectblack_bottom = new ShapePath({
             parent: myArtboard,
             frame: { x: (90 * i) + (30 * z), y: 0, width: 30, height: 90 },
-            style: { fills: [overlayColor], opacity: 0.4 * z, borders: [], blendingMode: 'Overlay'}
+            style: { fills: [overlayColor], opacity: 0.4 * z, borders: [], blendingMode: 'Overlay'},
+            name: "Overlay_blending_color"
           }) 
         }} 
     }

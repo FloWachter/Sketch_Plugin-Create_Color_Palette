@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Sketch preferences preview</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.409713,-2.58960077e-16 L33.590287,2.58960077e-16 C35.8190838,-1.50463262e-16 36.6272994,0.232064028 37.4421143,0.667831759 C38.2569291,1.10359949 38.8964005,1.74307093 39.3321682,2.55788574 C39.767936,3.37270056 40,4.18091615 40,6.409713 L40,33.590287 C40,35.8190838 39.767936,36.6272994 39.3321682,37.4421143 C38.8964005,38.2569291 38.2569291,38.8964005 37.4421143,39.3321682 C36.6272994,39.767936 35.8190838,40 33.590287,40 L6.409713,40 C4.18091615,40 3.37270056,39.767936 2.55788574,39.3321682 C1.74307093,38.8964005 1.10359949,38.2569291 0.667831759,37.4421143 C0.232064028,36.6272994 1.00308841e-16,35.8190838 -1.72640051e-16,33.590287 L1.72640051e-16,6.409713 C-1.00308841e-16,4.18091615 0.232064028,3.37270056 0.667831759,2.55788574 C1.10359949,1.74307093 1.74307093,1.10359949 2.55788574,0.667831759 C3.37270056,0.232064028 4.18091615,1.50463262e-16 6.409713,-2.58960077e-16 Z" id="path-1"></path>
+        <filter x="-25.0%" y="-20.0%" width="150.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Sketch-preferences-preview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Thumbnail" transform="translate(5.000000, 5.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Plugin-Icon" mask="url(#mask-2)">
+                <g transform="translate(0.000000, -0.000000)" id="Bitmap">
+                    <image x="5.9375" y="5.9375" width="28.125" height="28.125" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABGdBTUEAALGN5fIAKQAAAZxJREFUeAHt2rENwlAUQ9EkBAmGyFLsTYPEEGwQRBGo3fv+gkvnFM/SiZWK+fY6jmnAb7kMKP1Vnq5jepcxtf/XKjT0zoUWGhKAaly00JAAVOOihYYEoBoXLTQkANW4aKEhAajGRQsNCUA1LlpoSACqcdFCQwJQjYsWGhKAaly00JAAVOOihYYEoBoXLTQkANW4aKEhAajGRUPQ6/MDNUXNfI4HUJyH/Hd2mlw09IKFFhoSgGpctNCQAFTjooWGBKAaFy00JADVuGihIQGoxkULDQlANS5aaEgAqnHRQkMCUI2LFhoSgGpctNCQAFTjooWGBKAaFy00JADVuGihIQGoxkULDQlANev+uENVUbPt8YCJ8/ZmiqLFT0eAtKLQLdm4K3SAtKLQLdm4K3SAtKLQLdm4K3SAtKLQLdm4K3SAtKLQLdm4K3SAtKLQLdm4K3SAtKLQLdm4K3SAtKLQLdm4K3SAtKLQLdm4K3SAtKLQLdm4K3SAtKLQLdm4K3SAtKLQLdm4K3SAtKLQLdm4K3SAtKLQLdm4K3SAtOIX+HYLoKQ3inMAAAAASUVORK5CYII="></image>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

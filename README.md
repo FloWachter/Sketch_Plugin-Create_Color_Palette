@@ -1,6 +1,4 @@
 # Make-Color-Palette
-Make Color Palette 
-— 
 Sketch 3 Plugin
 
 ![Repo Card](GitHub_repo_card.png)
